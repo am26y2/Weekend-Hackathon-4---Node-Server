@@ -17,6 +17,7 @@ function handleServer(req, res) {
     res.end(JSON.stringify(contactObj));
   } else {
     res.writeHead(404).end("page not found");
+    console.log("amit");
   }
 }
 
